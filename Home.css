@@ -1,0 +1,424 @@
+body{
+    margin: 0%;
+}
+.head{
+    height:85px;
+}
+
+.head .left{
+    float: left;
+}
+.head .left .logo img{
+    float:left;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+.menu .pad{
+    margin-top: 30px;
+}
+.box .menu .pad{
+    margin-top: 15px;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+.menu .new p{
+    
+    margin: 0px;
+    margin-top: 12px;
+    margin-left: 30px;
+    background-color: rgb(197, 3, 3);
+    color: white;
+    border-radius: 2px;
+    width: 40px;
+}
+.box .menu .new p{
+    
+    margin: 0px;
+    margin-top: 0px;
+    margin-left: 30px;
+    background-color: rgb(197, 3, 3);
+    color: white;
+    border-radius: 2px;
+    width: 40px;
+}
+.menu .new1 p{
+    
+    margin: 0px;
+    margin-top: 0px;
+    margin-left: 30px;
+    background-color: rgb(197, 3, 3);
+    color: white;
+    border-radius: 2px;
+    width: 90px;
+}
+.menu a:hover{
+    color: #3a86ff;
+}
+.menu .t .pad button{
+    background: none;
+    border: none;
+    margin-left: 0px;
+    font-size: 15px;
+}
+
+.left{
+    display: flex;
+}
+.left .menu{
+    display: flex;
+}
+.right{
+    display: flex;
+    margin-top: 10px;
+    padding-left: 0px;
+}
+.right a{
+    text-decoration: none;
+}
+.right .list{
+    margin-left: 100px;
+    margin-top: 10px;
+    border-radius: 6px;
+    border: 2px solid rgb(250, 109, 133);
+    width: 100px;
+    height: 35px;
+    padding-top: 15px;
+    padding-left: 5px;
+}
+.right .list:hover{
+    background-color: rgb(250, 109, 133);
+}
+.right .list a{
+    color: rgb(250, 109, 133);
+}
+.right .list:hover a{
+    color: white;
+}
+.right .flag{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.right .rs{
+    padding-top: 15px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.right .sign{
+    border-radius: 6px;
+    margin-top: 10px;
+    width: 60px;
+    padding-top: 15px;
+    padding-left: 10px;
+    margin-left: 20px;
+}
+.right .sign:hover{
+    background-color: #3a86ff;
+}
+.right .sign a{
+    color: #3a86ff;
+}
+.right .sign:hover a{
+    color: white;
+}
+.right .create{
+    border-radius: 5px;
+    border: 2px solid #3a86ff;
+    width: 120px;
+    padding-top: 15px;
+    padding-left: 18px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.right .create:hover{
+    background-color: #3a86ff;
+}
+.right .create a{
+    color: #3a86ff;
+}
+.right .create:hover a{
+    color: white;
+}
+.right .cart{
+    padding-top: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.right .more{
+    border-radius: 6px;
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-top: 5px;
+    width: 50px;
+    margin-left: 20px;
+}
+
+.right .more:hover{
+    background-color: #3a86ff;
+}
+.menu{
+    display: flex;
+}
+.body{
+    width: 1535px;
+    height: 500px;
+    position: relative;
+}
+.body .box .menu{
+    position: absolute;
+    top: 100px;
+    left: 400px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;;
+
+}
+.body .box .body-content{
+    position: absolute;
+    top:130px;
+    left: 330px;
+    width: 900px;
+    background-color: rgb(242, 240, 240);
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-left: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.two-btn{
+    display: flex;
+}
+.two-btn .btn{
+    margin-right: 10px;
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-top: 5px;
+    width: 120px;
+    height: 25px;
+    background-color: #cfdffb;
+    color: blue;
+    border: 2px solid blue;
+}
+.enter{
+    margin-top: 20px;
+    color: gray;
+    background-color: white;
+    padding-left: 80px;
+    width: 800px;
+    height: 65px;
+    border: 2px solid rgb(213, 213, 213);
+    border-radius: 5px;
+}
+.enter p{
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.two-box{
+    display: flex;
+    margin-top: 20px;
+    color: gray;
+    width: 900px;
+    height: 65px;
+}
+.two-box .days{
+    display: flex;
+    margin-left: 0px;
+    padding-left: 0px;
+    border: 2px solid rgb(213, 213, 213);
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-left: 30px;
+    background-color: white;
+}
+.two-box .room{
+    display: flex;
+    width: 350px;
+    margin-left: 15px;
+    padding-left: 0px;
+    border: 2px solid rgb(213, 213, 213);
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-left: 30px;
+    background-color: white;
+}
+.two-box .days .day{
+    width: 200px;
+}
+.two-box .days .line img{
+    transform: rotate(90deg);
+}
+.two-para{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.two-para p{
+    background-color: rgb(197, 3, 3);
+    color: white;
+    width: 100px;
+    padding-left:10px;
+    margin-right: 50px;
+}
+.two-para button{
+    border: none;
+}
+.two-para button a{
+    text-decoration: none;
+    color: blue;
+}
+.search{
+    position: absolute;
+    top:430px;
+    left: 650px;
+    width: 200px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 100px;
+    background-color: rgb(80, 80, 222);
+}
+.search button{
+    border: none;
+    background: none;
+}
+.search:hover{
+    opacity: 0.8;
+}
+.search button a{
+    text-decoration: none;
+    color: white;
+}
+
+div.save {
+    position: fixed;
+    bottom: 20px;
+    right: 0px;
+    width: 300px;
+  }
+.save button{
+    border: none;
+    background-color: rgb(69, 69, 220);
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+}
+.save button a{
+    text-decoration: none;
+    color: white;
+}
+.top{
+    margin-top: 50px;
+}
+.dest{
+    margin-top: 60px;
+    margin-left: 200px;
+    display: flex;
+}
+.dest .place{
+    margin-left: 50px;
+}
+.acc{
+    margin-top: 50px;
+}
+.promo{
+    margin-top: 60px;
+    margin-left: 200px;
+    display: flex;
+}
+.promo .acc-pro{
+    margin-left: 30px;
+}
+.rec{
+    margin-top: 50px;
+}
+.rec h1{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.rec ul li{
+    display: inline;
+    padding-right: 50px;
+}
+.rec ul li a{
+    text-decoration: none;
+    color: black;
+}
+.dest1{
+
+    margin-top: 0px;
+    margin-left: 250px;
+    display: flex;
+}
+.dest1 .place1{
+    width: 280px;
+}
+.dest1 .place1 h3{
+    font-size: 15px;
+}
+.dest1 .place1 a{
+    text-decoration: none;
+    color: #3a86ff;
+    font-size: 14px;
+}
+.dest1 .place1 h4{
+    color: red;
+}
+.see button{
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+    background-color: rgb(69, 69, 220);
+    border: none;
+}
+.see button a{
+    text-decoration: none;
+    color: white;
+}
+.oft{
+    margin-top: 50px;
+}
+.promo .travel{
+    width: 320px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    border-bottom-style: solid;
+    border-bottom-color: blue;
+}
+.other{
+    display: flex;
+    background-color: rgb(221, 217, 217);
+    margin-top: 30px;
+    padding-left: 280px;
+    padding-bottom: 30px;
+    width: 1255px;
+}
+.other .o{
+    width: 200px;
+}
+.footer{
+    background-color: rgb(42, 41, 41);
+    color: white;
+    padding-top: 30px;
+}
+.com{
+    display: flex;
+    margin-left: 250px;
+}
+.cities{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 280px;
+    display: flex;
+}
+.cities .city{
+    padding-right: 40px;
+}
+.cities .city a{
+    text-decoration: none;
+    color: black;
+    font-size: small;
+}
